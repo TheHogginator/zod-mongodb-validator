@@ -1,0 +1,40 @@
+{
+  "name": "@thehogginator/zod-mongodb-validator",
+  "version": "0.0.0",
+  "description": "Generate MongoDB Validator schemas from your Zod schemas",
+  "main": "lib/index.js",
+  "files": [
+    "package.json",
+    "README.md",
+    "lib"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "tsx --test",
+    "test:watch": "tsx --test --watch",
+    "check-types": "tsc --noEmit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheHogginator/zod-mongodb-validator.git"
+  },
+  "keywords": [
+    "zod",
+    "mongodb"
+  ],
+  "peerDependencies": {
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.2",
+    "mongodb": "^6.15.0",
+    "tsx": "^4.19.3",
+    "@types/node": "^22.13.14"
+  },
+  "author": "TheHogginator",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/TheHogginator/zod-mongodb-validator/issues"
+  },
+  "homepage": "https://github.com/TheHogginator/zod-mongodb-validator#readme"
+}
